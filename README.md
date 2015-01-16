@@ -1,4 +1,5 @@
-projectname-lastname.firstname
+miniblog-nguyen.thuc
 ==============================
 
-Template repo for Mulodo training. (ex: miniblog-truong.vu) 
+Make a change for creating pull request.
+
