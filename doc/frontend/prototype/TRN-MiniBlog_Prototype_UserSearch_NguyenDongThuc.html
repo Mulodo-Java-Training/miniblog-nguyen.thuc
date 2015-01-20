@@ -1,0 +1,120 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>User Search</title>
+<link rel="stylesheet" type="text/css" href="bootstrap.css">
+</head>
+<body>
+	<div class="panel-body"
+		style="background-color: #0099FF; padding-top: 0px; padding-bottom: 0px;">
+		<div class="row" style="padding-bottom: 15px;">
+			<div class="
+			col-md-5 col-md-offset-1">
+				<br> <a href="#.html"
+					style="color: #FFFFFF; font-size: 24; font-family: cursive;">Mini
+					Blog Logo</a>
+			</div>
+			<div class="col-md-5 col-md-offset-1 form-group-sm"
+				style="margin-top: 10px; text-align: right;">
+				<ul class="list-inline">
+					<li style="color: #E8E8E8">Welcome <a href="#"
+						style="color: #E8E8E8">BNguyen</a></li>
+					<li><a href="#" style="color: #E8E8E8">Edit Profile</a></li>
+					<li><a href="#" style="color: #E8E8E8">Log out</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row panel-body form-group-sm"
+			style="padding-top: 5px; padding-bottom: 0px">
+			<div class="col-md-5 col-md-offset-1">
+				<input id="search-post" type="text" name="search-post"
+					class="form-control" value="" placeholder="Search Post" required
+					autofocus>
+			</div>
+			<div class="col-md-2" style="padding-left: 0px; padding-right: 0px">
+				<button class="btn btn-primary btn-sm" id="btn-search" type="submit"
+					name="search">Search</button>
+				<button class="btn btn-primary btn-sm" id="btn-usearch"
+					type="submit" name="usearch">User Search</button>
+			</div>
+		</div>
+		<div class="col-md-11 col-md-offset-1 form-group-sm"
+			style="margin-top: 10px; margin-bottom: 0px">
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#">User Search</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-3 col-md-offset-4">
+				<form role="form">
+					<div class="page-header">
+						<h4 style="text-align: center">User Search</h4>
+					</div>
+					<div class="form-group">
+						<input type="text" name="username" id="username"
+							class="form-control" placeholder="Username">
+					</div>
+					<div class="form-group">
+						<input type="text" name="first_name" id="first_name"
+							class="form-control" placeholder="First Name">
+					</div>
+					<div class="form-group">
+						<input type="text" name="last_name" id="last_name"
+							class="form-control" placeholder="Last Name">
+					</div>
+					<div class="col-md-6 col-md-offset-6" style="padding-right: 0px;">
+						<input type="submit" value="Search"
+							class="btn btn-primary btn-block">
+					</div>
+			</div>
+
+			</form>
+		</div>
+		<hr>
+		<h4>Search Results:</h4>
+		<table class="table table-striped">
+			<thead>
+				<tr>
+					<th>No</th>
+					<th>Username</th>
+					<th>Email</th>
+					<th>Full Name</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>1</th>
+					<td><a href="#" style="color: #404040;">bnguyen</a></td>
+					<td>bnguyen@gmail.com</td>
+					<td>Nguyen Van B</td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td><a href="#" style="color: #404040;">bnguyen</a></td>
+					<td>bnguyen@gmail.com</td>
+					<td>Nguyen Van B</td>
+				</tr>
+				<tr>
+					<th>3</th>
+					<td><a href="#" style="color: #404040;">bnguyen</a></td>
+					<td>bnguyen@gmail.com</td>
+					<td>Nguyen Van B</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<hr>
+	<div id="footer" class="col-md-12"
+		style="padding-left: 0px; padding-right: 0px;">
+		<nav class="navbar navbar-default"
+			style="background-color: #0099FF; margin-bottom: 0px;">
+			<br>
+			<p style="text-align: center; color: #D8D8D8">Copyright © 2015
+				Mini Blog</p>
+		</nav>
+	</div>
+</body>
+</html>

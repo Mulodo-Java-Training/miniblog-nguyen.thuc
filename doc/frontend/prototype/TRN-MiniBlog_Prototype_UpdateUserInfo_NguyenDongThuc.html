@@ -1,12 +1,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Register</title>
+<title>Edit Profile</title>
 <link rel="stylesheet" type="text/css" href="bootstrap.css">
 </head>
 <body>
 	<div class="panel-body"
-		style="background-color: #0099FF; padding-top: 0px;">
+		style="background-color: #0099FF; padding-top: 0px; padding-bottom: 0px;">
 		<div class="row" style="padding-bottom: 15px;">
 			<div class="
 			col-md-5 col-md-offset-1">
@@ -15,20 +15,13 @@
 					Blog Logo</a>
 			</div>
 			<div class="col-md-5 col-md-offset-1 form-group-sm"
-				style="margin-top: 10px;">
-				<form class="form-inline" style="height: 0px">
-					<div class="form-group">
-						<input id="login-username" type="text" name="username"
-							class="form-control" value="" placeholder="Username" required
-							autofocus>
-					</div>
-					<div class="form-group">
-						<input id="login-password" type="password" name="password"
-							placeholder="Password" class="form-control" required>
-					</div>
-					<button class="btn btn-primary btn-sm " id="btn-login"
-						type="submit" name="login">Login</button>
-				</form>
+				style="margin-top: 10px; text-align: right;">
+				<ul class="list-inline">
+					<li style="color: #E8E8E8">Welcome <a href="#"
+						style="color: #E8E8E8">BNguyen</a></li>
+					<li><a href="#" style="color: #E8E8E8">Edit Profile</a></li>
+					<li><a href="#" style="color: #E8E8E8">Log out</a></li>
+				</ul>
 			</div>
 		</div>
 		<div class="row panel-body form-group-sm"
@@ -45,18 +38,21 @@
 					type="submit" name="usearch">User Search</button>
 			</div>
 		</div>
+		<div class="col-md-11 col-md-offset-1 form-group-sm"
+			style="margin-top: 10px; margin-bottom: 0px">
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#">Edit Profile</a></li>
+				<li><a href="#" style="color: #D8D8D8;">Change Passowrd</a></li>
+			</ul>
+		</div>
 	</div>
-
-
-
-
 	<div class="container">
 
 		<div class="row">
 			<div class="col-md-6 col-md-offset-3">
 				<form role="form">
 					<div class="page-header">
-						<h3 style="text-align: center">Sign Up</h3>
+						<h3 style="text-align: center">Edit Profile</h3>
 					</div>
 					<div class="form-group">
 						<input type="email" name="email" id="email"
@@ -77,22 +73,29 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<input type="text" name="username" id="username"
-							class="form-control input-lg" placeholder="Username">
+						<input type="text" name="address" id="address"
+							class="form-control input-lg" placeholder="Address">
+					</div>
+					<div class="row">
+						<div class="col-md-6 form-group">
+							<select class="form-control">
+								<option value="1">Male</option>
+								<option value="0">Female</option>
+							</select>
+						</div>
 					</div>
 					<div class="form-group">
-						<input type="password" name="password" id="password"
-							class="form-control input-lg" placeholder="Password">
-					</div>
-					<div class="form-group">
-						<input type="password" name="password_confirmation"
-							id="password_confirmation" class="form-control input-lg"
-							placeholder="Confirm Password">
+						<input type="text" name="birthday" id="birthday"
+							class="form-control input-lg" placeholder="Birthday: DD/MM/YYYY">
 					</div>
 			</div>
 			<div class="row">
-				<div class="col-md-3 col-md-offset-6">
-					<input type="submit" value="Register"
+				<div class="col-md-3 col-md-offset-3">
+					<input type="submit" value="Save"
+						class="btn btn-primary btn-block btn-lg">
+				</div>
+				<div class="col-md-3">
+					<input type="submit" value="Cancel"
 						class="btn btn-primary btn-block btn-lg">
 				</div>
 			</div>
@@ -100,9 +103,6 @@
 		</div>
 	</div>
 	</div>
-
-
-
 	<div id="footer" class="col-md-12">
 		<nav class="navbar navbar-default navbar-fixed-bottom"
 			style="background-color: #0099FF;">
