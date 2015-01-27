@@ -2,7 +2,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Preview Post</title>
-<link rel="stylesheet" type="text/css" href="bootstrap.css">
+<link rel="stylesheet" type="text/css"
+	href="../template/css/bootstrap.css">
 </head>
 <body>
 	<div class="panel-body"
@@ -17,35 +18,39 @@
 			<div class="col-md-5 col-md-offset-1 form-group-sm"
 				style="margin-top: 10px; text-align: right;">
 				<ul class="list-inline">
-					<li style="color: #E8E8E8">Welcome <a href="#"
-						style="color: #E8E8E8">BNguyen</a></li>
-					<li><a href="#" style="color: #E8E8E8">Edit Profile</a></li>
-					<li><a href="#" style="color: #E8E8E8">Log out</a></li>
+					<li style="color: #E8E8E8">Welcome <a
+						href="../post/MyPost.html" style="color: #E8E8E8">BNguyen</a></li>
+					<li><a href="../user/EditProfile.html" style="color: #E8E8E8">Edit
+							Profile</a></li>
+					<li><a href="../Index.html" style="color: #E8E8E8">Log out</a></li>
 				</ul>
 			</div>
 		</div>
 		<div class="row panel-body form-group-sm"
-			style="padding-top: 5px; padding-bottom: 0px">
+			style="padding-top: 5px; padding-bottom: 20px">
 			<div class="col-md-5 col-md-offset-1">
 				<input id="search-post" type="text" name="search-post"
-					class="form-control" value="" placeholder="Search Post" required
-					autofocus>
+					class="form-control" value="" placeholder="Search Post" required>
 			</div>
 			<div class="col-md-2" style="padding-left: 0px; padding-right: 0px">
 				<button class="btn btn-primary btn-sm" id="btn-search" type="submit"
 					name="search">Search</button>
-				<button class="btn btn-primary btn-sm" id="btn-usearch"
-					type="submit" name="usearch">User Search</button>
+				<a class="btn btn-primary btn-sm" id="btn-usearch"
+					href="../user/UserSearch.html">User Search </a>
 			</div>
 		</div>
+	</div>
+	<div class="panel-body" style="padding-top: 0px;">
 		<div class="col-md-11 col-md-offset-1 form-group-sm"
 			style="margin-top: 10px; margin-bottom: 0px">
-			<ul class="nav nav-tabs">
-				<li class="active"><a href="#">Preview Post</a></li>
+			<ul class="breadcrumb"
+				style="background-color: #FFFFFF; margin-bottom: 0px;">
+				<li><a href="../user/Home.html"><span
+						class="glyphicon glyphicon-home"></span> Home</a></li>
+				<li class="active">Preview Post</li>
 			</ul>
+			<hr style="margin-top: 0px;">
 		</div>
-	</div>
-	<div class="panel-body" style="padding-top: 45px;">
 		<div class="row">
 			<div class="well col-md-6 col-md-offset-3"
 				style="padding-bottom: 35px;">
@@ -82,7 +87,8 @@
 			</div>
 			<div class="row">
 				<div class="col-md-1 col-md-offset-7" style="padding: 0px 5px;">
-					<input type="submit" value="Edit" class="btn btn-primary btn-block">
+					<a class="btn btn-primary btn-block" id="btn-usearch"
+						href="EditPost.html">Edit</a>
 				</div>
 				<div class="col-md-1" style="padding: 0px 5px;">
 					<input type=" submit" value="Publish"
